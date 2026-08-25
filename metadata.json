@@ -1,0 +1,6 @@
+{
+  "name": "Evidence-Led Content Brief & Outline Builder",
+  "description": "Turn content gaps, query fan-out, competitor evidence and AI citation findings into actionable content briefs and outlines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
