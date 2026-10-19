@@ -85,7 +85,7 @@ export function runEditorialQA(state: FullBriefProjectState): {
       if (regex.test(text)) {
         brandViolations.push({
           phrase,
-          correction: phrase.includes('guide') ? 'guides on ToursByLocals' : 'tours on ToursByLocals',
+          correction: phrase.includes('guide') ? 'local guides' : 'private tours',
           location
         });
       }
@@ -169,7 +169,7 @@ export function runEditorialQA(state: FullBriefProjectState): {
   // 6. Canadian Spelling Enforcement
   checks.push({
     id: 'qa_06',
-    category: 'ToursByLocals Editorial Compliance',
+    category: 'Editorial Compliance',
     title: 'Canadian Spelling Compliance',
     description: 'Enforces Canadian spelling (traveller, neighbourhood, favourite, centre, colour, etc.).',
     status: canadianSpellingIssues.length === 0 ? 'pass' : 'warning',
@@ -182,7 +182,7 @@ export function runEditorialQA(state: FullBriefProjectState): {
   // 7. Banned Travel Clichés Audit
   checks.push({
     id: 'qa_07',
-    category: 'ToursByLocals Editorial Compliance',
+    category: 'Editorial Compliance',
     title: 'Banned Travel Clichés Scan',
     description: 'Flags generic clichés (nestled, vibrant, bustling, iconic, must-see, hidden gem, heart of, etc.).',
     status: bannedPhrasesFound.length === 0 ? 'pass' : 'warning',
@@ -192,17 +192,17 @@ export function runEditorialQA(state: FullBriefProjectState): {
     remediation: 'Replace empty travel adjectives with specific, factual descriptions.'
   });
 
-  // 8. ToursByLocals Brand Terminology
+  // 8. Independent Guide Platform Terminology
   checks.push({
     id: 'qa_08',
-    category: 'ToursByLocals Editorial Compliance',
+    category: 'Editorial Compliance',
     title: 'Brand Terminology Rules',
-    description: 'Prohibits "our guides" / "our tours"; requires "guides on ToursByLocals" or "local guides".',
+    description: 'Prohibits "our guides" / "our tours"; requires "local guides" or "independent guides".',
     status: brandViolations.length === 0 ? 'pass' : 'blocker',
     details: brandViolations.length === 0
-      ? 'Compliant with ToursByLocals independent guide platform phrasing.'
+      ? 'Compliant with independent guide platform phrasing.'
       : `Found ${brandViolations.length} phrasing violations (e.g. "${brandViolations[0]?.phrase}").`,
-    remediation: 'Change "our guides/tours" to "guides on ToursByLocals" or "local guides".'
+    remediation: 'Change "our guides/tours" to "local guides" or "independent guides".'
   });
 
   // 9. Source Freshness & Time-Sensitive Facts
