@@ -124,7 +124,7 @@ export const OverviewView: React.FC<OverviewViewProps> = ({
             <div>
               <span className="text-slate-400 block text-xs font-medium">4. Role in Site Architecture:</span>
               <p className="text-slate-200">
-                Acts as a logistical pillar connecting the parent <code className="text-teal-300 text-xs bg-slate-800 px-1 py-0.5 rounded">Montreal Destination Hub</code> to high-converting <code className="text-teal-300 text-xs bg-slate-800 px-1 py-0.5 rounded">Private Tours on ToursByLocals</code>.
+                Acts as a logistical pillar connecting the parent <code className="text-teal-300 text-xs bg-slate-800 px-1 py-0.5 rounded">Montreal Destination Hub</code> to high-converting <code className="text-teal-300 text-xs bg-slate-800 px-1 py-0.5 rounded">Private tours</code>.
               </p>
             </div>
             <div>
@@ -150,7 +150,7 @@ export const OverviewView: React.FC<OverviewViewProps> = ({
         <div className="bg-white border border-slate-200 rounded-lg p-3.5 shadow-2xs">
           <span className="text-[11px] text-slate-500 font-medium block">Target URL</span>
           <span className="text-xs font-semibold text-slate-900 truncate block mt-1" title={decision.recommendedTargetUrl}>
-            {decision.recommendedTargetUrl.replace('https://www.toursbylocals.com', '') || 'Unassigned'}
+            {decision.recommendedTargetUrl.replace('https://example.com', '') || 'Unassigned'}
           </span>
         </div>
 
@@ -292,7 +292,7 @@ export const OverviewView: React.FC<OverviewViewProps> = ({
           </div>
           <h4 className="font-semibold text-slate-900 text-sm">Editorial QA & Gates</h4>
           <p className="text-xs text-slate-500 mt-1">
-            Verify Canadian spelling, brand phrasing ("guides on ToursByLocals"), and cliché-free copy.
+            Verify Canadian spelling, brand phrasing ("local guides"), and cliché-free copy.
           </p>
         </button>
       </div>
