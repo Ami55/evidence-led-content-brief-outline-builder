@@ -160,7 +160,7 @@ export const ContentBriefView: React.FC<ContentBriefViewProps> = ({
           </div>
         </div>
 
-        {/* Section 4: Editorial Standards & ToursByLocals Rules */}
+        {/* Section 4: Editorial Standards & Independent Guide Platform Rules */}
         <div className="space-y-3">
           <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider text-teal-800 flex items-center gap-2">
             4. Editorial & Style Guidelines
@@ -182,7 +182,7 @@ export const ContentBriefView: React.FC<ContentBriefViewProps> = ({
               <div>
                 <span className="font-bold text-slate-800 block mb-1">Brand Phrasing:</span>
                 <p className="text-slate-700">
-                  Use "guides on ToursByLocals" or "local guides". NEVER use "our guides" or "our tours".
+                  Use "local guides" or "independent guides". NEVER use "our guides" or "our tours".
                 </p>
               </div>
             </div>

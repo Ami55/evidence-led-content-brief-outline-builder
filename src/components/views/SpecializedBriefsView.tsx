@@ -137,7 +137,7 @@ export const SpecializedBriefsView: React.FC<SpecializedBriefsViewProps> = ({
               <h3 className="text-base font-bold text-slate-900">Modular Section Brief (Embed in Existing Page)</h3>
             </div>
             <button
-              onClick={() => handleCopy(`SECTION BRIEF: ${project.proposedTopic}\nHost URL: https://www.toursbylocals.com/montreal-travel-guide`)}
+              onClick={() => handleCopy(`SECTION BRIEF: ${project.proposedTopic}\nHost URL: https://example.com/montreal-travel-guide`)}
               className="text-xs px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium rounded-lg transition-colors flex items-center gap-1.5 cursor-pointer"
             >
               {copied ? <Check className="w-3.5 h-3.5 text-teal-600" /> : <Copy className="w-3.5 h-3.5" />}
@@ -149,7 +149,7 @@ export const SpecializedBriefsView: React.FC<SpecializedBriefsViewProps> = ({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="p-3 bg-slate-50 rounded-lg border border-slate-200">
                 <span className="font-semibold text-slate-700 block mb-1">Host Page URL:</span>
-                <code className="text-teal-800 font-mono font-medium">https://www.toursbylocals.com/montreal-travel-guide</code>
+                <code className="text-teal-800 font-mono font-medium">https://example.com/montreal-travel-guide</code>
               </div>
               <div className="p-3 bg-slate-50 rounded-lg border border-slate-200">
                 <span className="font-semibold text-slate-700 block mb-1">Target Section Heading (H2):</span>
@@ -198,8 +198,8 @@ export const SpecializedBriefsView: React.FC<SpecializedBriefsViewProps> = ({
             <div className="p-3 bg-slate-50 border border-slate-200 rounded-lg space-y-2">
               <span className="font-semibold text-slate-700 block">URLs to Deprecate and 301-Redirect:</span>
               <ul className="list-disc list-inside space-y-1 font-mono text-[11px] text-rose-700">
-                <li>https://www.toursbylocals.com/montreal-metro-tips-old (301 &rarr; Canonical)</li>
-                <li>https://www.toursbylocals.com/montreal-transit-guide-2022 (301 &rarr; Canonical)</li>
+                <li>https://example.com/montreal-metro-tips-old (301 &rarr; Canonical)</li>
+                <li>https://example.com/montreal-transit-guide-2022 (301 &rarr; Canonical)</li>
               </ul>
             </div>
 

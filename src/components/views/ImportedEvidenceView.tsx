@@ -316,7 +316,7 @@ export const ImportedEvidenceView: React.FC<ImportedEvidenceViewProps> = ({
                       <span className="font-medium text-slate-700">Existing Target URLs: </span>
                       {item.existingUrls.map((u, i) => (
                         <a key={i} href={u} target="_blank" rel="noreferrer" className="text-teal-600 hover:underline mr-2">
-                          {u.replace('https://www.toursbylocals.com', '')}
+                          {u.replace('https://example.com', '')}
                         </a>
                       ))}
                     </div>

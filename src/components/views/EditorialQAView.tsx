@@ -45,7 +45,7 @@ export const EditorialQAView: React.FC<EditorialQAViewProps> = ({
             </span>
           </div>
           <p className="text-xs text-slate-500 mt-0.5">
-            Automated compliance auditor ensuring Canadian spelling, ToursByLocals phrasing rules, and absence of generic travel clichés.
+            Automated compliance auditor ensuring Canadian spelling, independent guide platform phrasing rules, and absence of generic travel clichés.
           </p>
         </div>
 
@@ -121,7 +121,7 @@ export const EditorialQAView: React.FC<EditorialQAViewProps> = ({
           </div>
           <p className="text-slate-600">
             {qaResult.brandViolations.length === 0
-              ? 'Complies with independent guide platform phrasing ("guides on ToursByLocals").'
+              ? 'Complies with independent guide platform phrasing ("local guides").'
               : `Detected forbidden phrasing ("our guides" / "our tours").`}
           </p>
         </div>

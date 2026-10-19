@@ -22,7 +22,7 @@ export const InternalLinkPlanView: React.FC<InternalLinkPlanViewProps> = ({
   onUpdateState
 }) => {
   const { internalLinkPlan } = state;
-  const [newTargetUrl, setNewTargetUrl] = useState('https://www.toursbylocals.com/montreal-tours');
+  const [newTargetUrl, setNewTargetUrl] = useState('https://example.com/montreal-tours');
   const [newDirection, setNewDirection] = useState<InternalLinkPlanItem['direction']>('Outbound to Commercial');
   const [newAnchor, setNewAnchor] = useState('private Montreal driving tours');
   const [newRel, setNewRel] = useState('Commercial conversion');
@@ -107,7 +107,7 @@ export const InternalLinkPlanView: React.FC<InternalLinkPlanViewProps> = ({
                     </span>
                   </td>
                   <td className="py-2.5 px-3 font-mono text-teal-800 font-medium max-w-xs truncate" title={l.targetUrl}>
-                    {l.targetUrl.replace('https://www.toursbylocals.com', '')}
+                    {l.targetUrl.replace('https://example.com', '')}
                   </td>
                   <td className="py-2.5 px-3 font-semibold text-slate-900">
                     "{l.suggestedAnchorConcept}"

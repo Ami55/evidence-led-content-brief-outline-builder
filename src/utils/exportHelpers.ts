@@ -96,7 +96,7 @@ ${internalLinkPlan.map(l => `| ${l.direction} | \`${l.targetUrl}\` | ${l.relatio
 ## 8. Editorial & Freshness Requirements
 - **Tone:** ${contentBrief.editorialRequirements.tone}
 - **Canadian Spelling Enforced:** ${contentBrief.editorialRequirements.canadianSpellingEnforced ? 'Yes (traveller, neighbourhood, favourite, centre, colour, etc.)' : 'No'}
-- **Brand Terminology Rule:** Use "guides on ToursByLocals" or "local guides". NEVER use "our guides" or "our tours".
+- **Brand Terminology Rule:** Use "local guides" or "independent guides". NEVER use "our guides" or "our tours".
 - **Banned Clichés:** ${contentBrief.editorialRequirements.prohibitedLanguage.join(', ')}
 
 ### Time-Sensitive Facts & Sources:

@@ -189,7 +189,7 @@ export const ProjectSetupModal: React.FC<ProjectSetupModalProps> = ({
                 type="text"
                 value={formData.existingTargetUrl || ''}
                 onChange={(e) => setFormData({ ...formData, existingTargetUrl: e.target.value })}
-                placeholder="https://www.toursbylocals.com/..."
+                placeholder="https://example.com/..."
                 className="w-full p-2.5 border border-slate-300 rounded-lg font-mono text-xs"
               />
             </div>
