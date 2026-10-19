@@ -25,12 +25,12 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
     destinationOrSubject: 'Montreal, Quebec, Canada',
     proposedTopic: 'Getting Around Montreal: Practical Transit & Mobility for First-Time Travellers',
     targetAudience: 'First-time travellers aged 55+ seeking comfortable, accessible transit and walking strategies',
-    targetDomain: 'toursbylocals.com',
+    targetDomain: 'example.com',
     country: 'Canada',
     language: 'English (Canadian spelling)',
-    businessObjective: 'Establish high-authority planning hub, resolve transit anxiety, and route high-intent travellers to private walking and driving tours on ToursByLocals',
+    businessObjective: 'Establish high-authority planning hub, resolve transit anxiety, and route high-intent travellers to private walking and driving private tours',
     preferredConversionAction: 'Explore Montreal Private Tours with Local Guides',
-    existingTargetUrl: 'https://www.toursbylocals.com/destinations/montreal/getting-around-guide',
+    existingTargetUrl: 'https://example.com/destinations/montreal/getting-around-guide',
     proposedPageType: 'Supporting Planning Guide (Long-form Guide)',
     targetContentStatus: 'New content',
     mode: 'connected',
@@ -47,7 +47,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
     ],
     brandGuidelines: [
       'Use Canadian spelling: traveller, neighbourhood, favourite, centre, colour, cancellation, behaviour.',
-      'Always refer to "guides on ToursByLocals" or "local guides" — never use "our guides" or "our tours".',
+      'Always refer to "local guides" or "independent guides" — never use "our guides" or "our tours".',
       'Avoid overused travel clichés: nestled, bustling, hidden gem, iconic, must-see, vibrant, heart of.'
     ],
     updatedAt: '2026-08-21T13:00:00Z',
@@ -63,8 +63,8 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
       topic: 'Montreal Public Transit & Accessibility',
       contentCluster: 'Montreal Logistics & Planning',
       existingUrls: [
-        'https://www.toursbylocals.com/travel-guides/canada/montreal',
-        'https://www.toursbylocals.com/Montreal-Tours'
+        'https://example.com/travel-guides/canada/montreal',
+        'https://example.com/Montreal-Tours'
       ],
       pageTypes: ['Destination Hub', 'Tour Listing Category'],
       coverageStatus: 'Uncovered Gap',
@@ -93,7 +93,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
       destinationOrSubject: 'Montreal',
       topic: 'Montreal Airport to Downtown Transportation',
       contentCluster: 'Montreal Arrival Logistics',
-      existingUrls: ['https://www.toursbylocals.com/travel-guides/canada/montreal/airport-transportation-stub'],
+      existingUrls: ['https://example.com/travel-guides/canada/montreal/airport-transportation-stub'],
       pageTypes: ['Thin Informational Stub'],
       coverageStatus: 'Thin Coverage',
       structuralGap: 'Existing 120-word stub with outdated 2021 fixed taxi fares ($41 instead of the 2026 rate of $48.50).',
@@ -238,7 +238,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
       queryCluster: 'Private Guided Mobility Solutions',
       searchIntent: 'Transactional',
       journeyStage: 'Booking / Decision',
-      relevantEntities: ['ToursByLocals Montreal', 'Private Chauffeur Tour', 'Door-to-Door Guided Sightseeing'],
+      relevantEntities: ['Example Travel Montreal', 'Private Chauffeur Tour', 'Door-to-Door Guided Sightseeing'],
       expectedAnswerType: 'Step-by-Step Guide',
       observationFrequency: 620,
       businessRelevance: 'High',
@@ -277,8 +277,8 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
       citationConversionRate: 0.875,
       crossPlatformPresence: 'Cited in Google AI Overviews, Perplexity, and Gemini 2.5',
       competitorPage: 'https://www.mtl.org/en/experience/getting-around-montreal',
-      closestTargetPage: 'https://www.toursbylocals.com/travel-guides/canada/montreal',
-      observedDifference: 'Competitor provides clear elevator station counts, fare breakdowns, and specific transit pass recommendations, whereas ToursByLocals only had a 2-sentence generic paragraph.',
+      closestTargetPage: 'https://example.com/travel-guides/canada/montreal',
+      observedDifference: 'Competitor provides clear elevator station counts, fare breakdowns, and specific transit pass recommendations, whereas Example Travel only had a 2-sentence generic paragraph.',
       likelyCitationBarrier: 'Lack of structured data, absence of direct transit pass tables, and missing elevator/accessibility specifics.',
       recommendedExperiment: 'Provide an exact elevator-accessible metro station list for major tourist hubs, STM pass comparison table, and local guide advice on hill climbs.',
       evidenceLabel: 'Observed API Data',
@@ -310,8 +310,8 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
       citationConversionRate: 0.833,
       crossPlatformPresence: 'Cited in ChatGPT Search and Perplexity',
       competitorPage: 'https://www.quebecgetaways.com',
-      closestTargetPage: 'None (no ToursByLocals page ranked or retrieved)',
-      observedDifference: 'No current ToursByLocals page covers pedestrian surface realities or navigation tips for RÉSO.',
+      closestTargetPage: 'None (no Example Travel page ranked or retrieved)',
+      observedDifference: 'No current Example Travel page covers pedestrian surface realities or navigation tips for RÉSO.',
       likelyCitationBarrier: 'Complete topic absence in site architecture.',
       recommendedExperiment: 'Create distinct section: "Walkability Reality Check: Hills, Cobblestones & Footwear Tips" with first-hand guide warnings.',
       evidenceLabel: 'Comparative Finding',
@@ -365,15 +365,15 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
   ],
   decision: {
     action: 'create_supporting_article',
-    recommendedTargetUrl: 'https://www.toursbylocals.com/destinations/montreal/getting-around-guide',
+    recommendedTargetUrl: 'https://example.com/destinations/montreal/getting-around-guide',
     existingUrlsAffected: [
-      'https://www.toursbylocals.com/travel-guides/canada/montreal',
-      'https://www.toursbylocals.com/travel-guides/canada/montreal/airport-transportation-stub',
-      'https://www.toursbylocals.com/Montreal-Tours'
+      'https://example.com/travel-guides/canada/montreal',
+      'https://example.com/travel-guides/canada/montreal/airport-transportation-stub',
+      'https://example.com/Montreal-Tours'
     ],
-    canonicalKeepUrl: 'https://www.toursbylocals.com/destinations/montreal/getting-around-guide',
+    canonicalKeepUrl: 'https://example.com/destinations/montreal/getting-around-guide',
     urlsToMergeOrRedirect: [
-      'https://www.toursbylocals.com/travel-guides/canada/montreal/airport-transportation-stub'
+      'https://example.com/travel-guides/canada/montreal/airport-transportation-stub'
     ],
     recommendedPageType: 'Supporting Planning Guide (Long-form Practical Guide)',
     reason: 'Search demand spans over 12 distinct high-intent queries regarding senior mobility, STM transit passes, and cobblestone navigation. A brief section on the parent travel guide cannot adequately provide the necessary fare tables, accessibility elevator station maps, and winter walking tips without overcrowding the hub.',
@@ -399,7 +399,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
     primarySearchIntent: 'Informational & Logistics Planning',
     supportingIntents: ['Commercial Investigation (Passes & Airport Options)', 'Local Wayfinding Guidance'],
     journeyStage: 'Logistics & Transit / Destination Discovery',
-    desiredNextAction: 'Explore Montreal Private Tours with Local Guides on ToursByLocals for customized, comfortable, step-free sightseeing.',
+    desiredNextAction: 'Explore Montreal Private Tours with Local Guides on Example Travel for customized, comfortable, step-free sightseeing.',
     relevantConstraints: {
       ageAndMobility: 'Travellers aged 55+ may have joint stiffness, balance considerations on cobblestones, or prefer avoiding long flights of stairs at non-accessible metro stations.',
       firstTimeVisit: 'Unfamiliar with STM automated ticket kiosks, French-language transit signage, and the layout of the underground tunnels.',
@@ -421,12 +421,12 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
     questionsBelongElsewhere: [
       {
         question: 'What are the top 10 best restaurants in Montreal for French dining?',
-        targetPage: 'https://www.toursbylocals.com/travel-guides/canada/montreal/where-to-eat',
+        targetPage: 'https://example.com/travel-guides/canada/montreal/where-to-eat',
         reason: 'Dining recommendations belong on the dedicated food & culinary guide.'
       },
       {
         question: 'What is the full historical timeline of Old Montreal from 1642 to present?',
-        targetPage: 'https://www.toursbylocals.com/travel-guides/canada/montreal/history-heritage',
+        targetPage: 'https://example.com/travel-guides/canada/montreal/history-heritage',
         reason: 'In-depth historical narrative belongs on the cultural heritage guide.'
       }
     ]
@@ -552,7 +552,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
       classification: 'Human-Approved Opportunity',
       searchIntent: 'Transactional',
       journeyStage: 'Booking / Decision',
-      evidenceSource: 'ToursByLocals Business Relevance Matrix',
+      evidenceSource: 'Example Travel Business Relevance Matrix',
       observationFrequency: 750,
       recommendedPlacement: 'Section 7 (When to Choose a Private Guided Tour) & CTA',
       priority: 'High',
@@ -595,7 +595,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
       relationship: 'Physical smart cards and disposable paper chip cards used to load STM transit passes',
       relevantQueryClusters: ['Opus Cards, Fares & Ticket Machines'],
       userValue: 'Tourists should buy the non-rechargeable paper L’Occasionnelle card to avoid the $6 non-refundable plastic Opus card fee.',
-      existingCoverage: 'Completely absent on ToursByLocals.',
+      existingCoverage: 'Completely absent on Example Travel.',
       competitorCoverage: 'Mentioned on STM official site; omitted or confusing on travel blogs.',
       recommendedSection: 'Section 3',
       evidenceRequired: 'Confirm L’Occasionnelle card can hold 1-day, 3-day, and Unlimited Weekend passes at vending machines.',
@@ -684,7 +684,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
       retrievedOrCitationStatus: 'Cited & Retrieved',
       claimSupported: 'STM metro and bus network coverage, Opus pass types, and airport 747 bus schedule.',
       contentCharacteristic: 'Clean tables, factual, comprehensive, but neutral and completely devoid of senior mobility advice or candid walking cautions.',
-      targetSiteDifference: 'ToursByLocals can differentiate by adding first-hand local guide perspectives on hills, elevator availability, and when private chauffeur tours save energy.',
+      targetSiteDifference: 'Example Travel can differentiate by adding first-hand local guide perspectives on hills, elevator availability, and when private chauffeur tours save energy.',
       isTrueGap: true,
       recommendedResponse: 'Cover the transit pass facts clearly while layering in authentic mobility advice that DMOs cannot provide.',
       evidenceLabel: 'Extracted Page Evidence',
@@ -716,9 +716,9 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
       retrievedOrCitationStatus: 'Uncited',
       claimSupported: 'Shared shuttle and private luxury car transfer listings.',
       contentCharacteristic: 'Aggregated product grid with zero editorial advice on how public transit compares with private transfers.',
-      targetSiteDifference: 'ToursByLocals provides helpful editorial guidance first, guiding the user to private customized tours tailored to their exact pacing.',
+      targetSiteDifference: 'Example Travel provides helpful editorial guidance first, guiding the user to private customized tours tailored to their exact pacing.',
       isTrueGap: true,
-      recommendedResponse: 'Integrate natural, helpful internal links to private guided sightseeing experiences on ToursByLocals without aggressive sales pitches.',
+      recommendedResponse: 'Integrate natural, helpful internal links to private guided sightseeing experiences on Example Travel without aggressive sales pitches.',
       evidenceLabel: 'Comparative Finding',
       confidence: 0.88
     }
@@ -749,7 +749,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
       id: 'ig_03',
       informationNeed: 'Choosing between the 747 Bus and a Taxi for airport arrivals with 2+ travellers.',
       proposedUniqueContribution: 'The 2-Person Math Tip: For a solo traveller, the $11 CAD 747 bus is economical. However, for a couple or pair of travellers with luggage, two 747 tickets cost $22 CAD plus potential metro transfers, making the $48.50 CAD flat-rate taxi directly to your hotel door much more comfortable and only marginally more expensive per person.',
-      potentialSource: 'ToursByLocals Editorial Strategy & STM Fare Data',
+      potentialSource: 'Example Travel Editorial Strategy & STM Fare Data',
       evidenceStatus: 'Verified Local Knowledge',
       relevantSection: 'Section 4 (Arrival Logistics: YUL Airport)',
       expertInputRequired: false,
@@ -768,8 +768,8 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
     {
       id: 'ig_05',
       informationNeed: 'Average walking distance and pacing for a private guided sightseeing day.',
-      proposedUniqueContribution: 'Guide Pacing Insight: Guides on ToursByLocals typically pace private walking tours at 2.5 to 3.5 km over a 3-hour window with 2-3 seated café stops, compared to generic group tours that average 6 km with continuous standing.',
-      potentialSource: 'ToursByLocals Montreal Guide Community Survey',
+      proposedUniqueContribution: 'Guide Pacing Insight: Guides on Example Travel typically pace private walking tours at 2.5 to 3.5 km over a 3-hour window with 2-3 seated café stops, compared to generic group tours that average 6 km with continuous standing.',
+      potentialSource: 'Example Travel Montreal Guide Community Survey',
       evidenceStatus: 'Internal Data Available',
       relevantSection: 'Section 7 (When to Choose a Private Guided Tour)',
       expertInputRequired: true,
@@ -780,8 +780,8 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
   internalLinkPlan: [
     {
       id: 'link_01',
-      sourceUrl: 'https://www.toursbylocals.com/destinations/montreal/getting-around-guide',
-      targetUrl: 'https://www.toursbylocals.com/travel-guides/canada/montreal',
+      sourceUrl: 'https://example.com/destinations/montreal/getting-around-guide',
+      targetUrl: 'https://example.com/travel-guides/canada/montreal',
       direction: 'Inbound',
       relationship: 'Parent Hub to Child Supporting Planning Guide',
       suggestedSection: 'Introduction / Breadcrumbs',
@@ -792,20 +792,20 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
     },
     {
       id: 'link_02',
-      sourceUrl: 'https://www.toursbylocals.com/destinations/montreal/getting-around-guide',
-      targetUrl: 'https://www.toursbylocals.com/Montreal-Tours',
+      sourceUrl: 'https://example.com/destinations/montreal/getting-around-guide',
+      targetUrl: 'https://example.com/Montreal-Tours',
       direction: 'Outbound',
       relationship: 'Informational Guide to Commercial Tour Category',
       suggestedSection: 'Section 7 & CTA',
-      suggestedAnchorConcept: 'private tours available through ToursByLocals',
+      suggestedAnchorConcept: 'private tours available through Example Travel',
       userBenefit: 'Provides direct booking pathway for travellers who want a private driver-guide to manage all logistics.',
       existingLinkStatus: 'Planned URL',
       priority: 'High'
     },
     {
       id: 'link_03',
-      sourceUrl: 'https://www.toursbylocals.com/destinations/montreal/getting-around-guide',
-      targetUrl: 'https://www.toursbylocals.com/Montreal-Walking-Tours',
+      sourceUrl: 'https://example.com/destinations/montreal/getting-around-guide',
+      targetUrl: 'https://example.com/Montreal-Walking-Tours',
       direction: 'Outbound',
       relationship: 'Supporting Guide to Specialized Walking Tour Category',
       suggestedSection: 'Section 5 (Walkability in Old Montreal)',
@@ -816,8 +816,8 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
     },
     {
       id: 'link_04',
-      sourceUrl: 'https://www.toursbylocals.com/destinations/montreal/getting-around-guide',
-      targetUrl: 'https://www.toursbylocals.com/destinations/montreal/old-montreal-neighbourhood-guide',
+      sourceUrl: 'https://example.com/destinations/montreal/getting-around-guide',
+      targetUrl: 'https://example.com/destinations/montreal/old-montreal-neighbourhood-guide',
       direction: 'Cross-link',
       relationship: 'Logistics Guide to Neighbourhood Deep Dive',
       suggestedSection: 'Section 5',
@@ -828,8 +828,8 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
     },
     {
       id: 'link_05',
-      sourceUrl: 'https://www.toursbylocals.com/travel-guides/canada/montreal',
-      targetUrl: 'https://www.toursbylocals.com/destinations/montreal/getting-around-guide',
+      sourceUrl: 'https://example.com/travel-guides/canada/montreal',
+      targetUrl: 'https://example.com/destinations/montreal/getting-around-guide',
       direction: 'Inbound',
       relationship: 'Parent Hub Section linking down to Transit Deep Dive',
       suggestedSection: 'Montreal Hub - Practical Info Section',
@@ -842,18 +842,18 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
   contentBrief: {
     contentDecision: {
       action: 'create_supporting_article',
-      recommendedTargetUrl: 'https://www.toursbylocals.com/destinations/montreal/getting-around-guide',
+      recommendedTargetUrl: 'https://example.com/destinations/montreal/getting-around-guide',
       existingUrlsAffected: [
-        'https://www.toursbylocals.com/travel-guides/canada/montreal',
-        'https://www.toursbylocals.com/travel-guides/canada/montreal/airport-transportation-stub'
+        'https://example.com/travel-guides/canada/montreal',
+        'https://example.com/travel-guides/canada/montreal/airport-transportation-stub'
       ],
-      canonicalKeepUrl: 'https://www.toursbylocals.com/destinations/montreal/getting-around-guide',
+      canonicalKeepUrl: 'https://example.com/destinations/montreal/getting-around-guide',
       urlsToMergeOrRedirect: [
-        'https://www.toursbylocals.com/travel-guides/canada/montreal/airport-transportation-stub'
+        'https://example.com/travel-guides/canada/montreal/airport-transportation-stub'
       ],
       recommendedPageType: 'Supporting Planning Guide (Long-form Practical Guide)',
       reason: '12,000+ monthly search demand across transit, fare passes, and senior accessibility requires a standalone resource.',
-      supportingEvidence: 'High retrieval frequency across AI search engines and complete gap in current ToursByLocals coverage.',
+      supportingEvidence: 'High retrieval frequency across AI search engines and complete gap in current Example Travel coverage.',
       alternativeConsidered: 'Add a section to the Montreal Travel Guide hub.',
       whyAlternativeRejected: 'Would overwhelm the hub and fail to rank for long-tail transit queries.',
       confidence: 0.94,
@@ -864,7 +864,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
     contentObjective: {
       userGoal: 'Equip first-time visitors aged 55+ with complete clarity on how to navigate Montreal via Metro, bus, taxi, and walking with minimal physical strain.',
       businessObjective: 'Establish high-authority topical relevance for Montreal travel logistics and convert high-intent planning readers into bookings for private tours with local guides.',
-      desiredNextAction: 'Explore private tours on ToursByLocals tailored to personal mobility and interests.',
+      desiredNextAction: 'Explore private private tours tailored to personal mobility and interests.',
       roleInSiteArchitecture: 'Supporting Planning Guide under the Montreal Destination Hub, cross-linking to tour listings and neighbourhood guides.'
     },
     audience: {
@@ -895,7 +895,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
         'Airport Transfers: 747 Bus vs $48.50 flat-rate taxi vs private pickup',
         'Walkability Realities: The Beaver Hall Hill climb and Old Montreal cobblestones',
         'Winter Logistics: The Underground City (RÉSO) and icy sidewalk safety',
-        'Private Guided Options: When booking a local driver on ToursByLocals is best'
+        'Private Guided Options: When booking a local driver on Example Travel is best'
       ],
       topicsToMentionBriefly: [
         'BIXI Bike Share (mention caution for seniors; keep brief)',
@@ -909,11 +909,11 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
       topicsCoveredByOtherPages: [
         {
           topic: 'Top attractions and sightseeing itineraries',
-          targetUrl: 'https://www.toursbylocals.com/travel-guides/canada/montreal'
+          targetUrl: 'https://example.com/travel-guides/canada/montreal'
         },
         {
           topic: 'Where to eat in Montreal',
-          targetUrl: 'https://www.toursbylocals.com/travel-guides/canada/montreal/where-to-eat'
+          targetUrl: 'https://example.com/travel-guides/canada/montreal/where-to-eat'
         }
       ],
       overlapRisks: [
@@ -957,7 +957,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
       tone: 'Clear, friendly, down-to-earth, knowledgeable, and inclusive. Prioritise clarity, practical realities, and easy scanning.',
       canadianSpellingEnforced: true,
       brandTerminologyRules: [
-        'Use: "guides on ToursByLocals", "local guides", "private tours available through ToursByLocals", "local guide experiences".',
+        'Use: "local guides", "local guides", "private tours available through Example Travel", "local guide experiences".',
         'NEVER USE: "our guides", "our tours".'
       ],
       prohibitedLanguage: [
@@ -987,7 +987,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
       'Resolves the identified Site Architecture transit coverage gap.',
       '301 redirects the outdated airport stub to consolidate equity.',
       'Establishes internal links to Montreal Hub, Old Montreal Guide, and Montreal Private Tours.',
-      '100% compliant with ToursByLocals brand terminology and Canadian spelling.'
+      '100% compliant with Example Travel brand terminology and Canadian spelling.'
     ]
   },
   contentOutline: {
@@ -1089,7 +1089,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
           'Option A: Fixed-Rate Taxi ($48.50 CAD flat rate to downtown zone). Best for 2+ travellers, families, or anyone with heavy suitcases.',
           'Option B: STM 747 Express Bus ($11.00 CAD/person). Runs 24/7 with luggage racks; ticket includes 24 hours of unlimited transit access on the network.',
           'Option C: Uber / Rideshare (typically $42-$55 CAD depending on surge pricing; pickup located at door 6 on departure level).',
-          'Option D: Private Chauffeur Experience booked with local guides on ToursByLocals for meet-and-greet airport arrivals and seamless hotel check-in.'
+          'Option D: Private Chauffeur Experience booked with local local guides for meet-and-greet airport arrivals and seamless hotel check-in.'
         ],
         evidence: 'Aéroports de Montréal official ground transportation tariffs (2026).',
         informationGain: 'The 2-Person Math Tip: For couples, the $48.50 taxi is only $26.50 more than two 747 tickets and delivers you directly to your hotel lobby without wheeling luggage through metro stations.',
@@ -1156,7 +1156,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
         id: 'sec_07',
         heading: 'When to Choose a Private Guided Tour for Maximum Comfort',
         level: 'H2',
-        sectionObjective: 'Provide clear, objective criteria for when booking a private chauffeured tour with a local guide on ToursByLocals delivers superior value over public transit.',
+        sectionObjective: 'Provide clear, objective criteria for when booking a private chauffeured tour with a local guide on Example Travel delivers superior value over public transit.',
         questionsAnswered: [
           'Is it worth booking a private tour with a driver in Montreal?',
           'What is the easiest way to see Mont-Royal, Mile End, and Old Montreal in one day?',
@@ -1164,16 +1164,16 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
         ],
         queryCluster: 'Private Guided Sightseeing & Step-Free Alternatives',
         searchIntent: 'Commercial Investigation & Decision',
-        relevantEntities: ['ToursByLocals Montreal', 'Private Chauffeur Tour', 'Mont-Royal Summit', 'Mile End & Plateau'],
+        relevantEntities: ['Example Travel Montreal', 'Private Chauffeur Tour', 'Mont-Royal Summit', 'Mile End & Plateau'],
         keyPoints: [
           'While public transit is excellent for point-to-point hops, reaching dispersed destinations like the Mont-Royal Kondiaronk Belvedere, Saint Joseph’s Oratory, and Jean-Talon Market requires multiple transfers and uphill walking.',
-          'Private tours available through ToursByLocals provide door-to-door transportation in a comfortable private vehicle, with itineraries tailored to your personal physical pace and interests.',
+          'Private tours available through Example Travel provide door-to-door transportation in a comfortable private vehicle, with itineraries tailored to your personal physical pace and interests.',
           'Local guides can arrange step-free drop-offs directly at church and museum entrances, eliminating long walks from transit stops.',
           'Ideal for: Travellers with limited time (2-3 day visits), those with knee or hip considerations, or visitors wanting deep historical insights without navigating ticket machines.'
         ],
-        evidence: 'ToursByLocals customer feedback and mobility audit data.',
+        evidence: 'Example Travel customer feedback and mobility audit data.',
         informationGain: 'Custom Pacing Assurance: Private guides adapt the schedule in real time, pausing for seated coffee breaks or adjusting routes if cobblestones cause fatigue.',
-        internalLinks: ['Private tours available through ToursByLocals in Montreal'],
+        internalLinks: ['Private tours available through Example Travel in Montreal'],
         approximateDepth: 'Standard (200-300 words)',
         formatType: 'call_to_action',
         writerNotes: 'Maintain an editorial, helpful tone. Highlight how private tours complement public transit rather than criticizing public options.',
@@ -1210,7 +1210,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
     ]
   },
   updateBrief: {
-    existingUrl: 'https://www.toursbylocals.com/travel-guides/canada/montreal',
+    existingUrl: 'https://example.com/travel-guides/canada/montreal',
     existingPageType: 'Destination Hub (Montreal Travel Guide)',
     sectionsToKeep: [
       'Top 10 Attractions in Montreal (Notre-Dame, Mont-Royal, Botanical Garden)',
@@ -1254,10 +1254,10 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
     ]
   },
   mergeBrief: {
-    canonicalKeepUrl: 'https://www.toursbylocals.com/destinations/montreal/getting-around-guide',
+    canonicalKeepUrl: 'https://example.com/destinations/montreal/getting-around-guide',
     sourceUrlsToMerge: [
       {
-        url: 'https://www.toursbylocals.com/travel-guides/canada/montreal/airport-transportation-stub',
+        url: 'https://example.com/travel-guides/canada/montreal/airport-transportation-stub',
         title: 'Montreal Airport Transportation Stub (Legacy 2021)',
         uniqueInformationToPreserve: [
           'Distance from YUL to Downtown (approx. 20 km / 25-45 minutes depending on traffic).',
@@ -1274,8 +1274,8 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
     ],
     redirectMapping: [
       {
-        from: 'https://www.toursbylocals.com/travel-guides/canada/montreal/airport-transportation-stub',
-        to: 'https://www.toursbylocals.com/destinations/montreal/getting-around-guide',
+        from: 'https://example.com/travel-guides/canada/montreal/airport-transportation-stub',
+        to: 'https://example.com/destinations/montreal/getting-around-guide',
         status: '301 Permanent'
       }
     ],
@@ -1286,7 +1286,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
     approvalNotes: 'Approved by Ami Saeednia on 2026-08-21. Redirect rule scheduled for deployment.'
   },
   sectionBrief: {
-    targetParentUrl: 'https://www.toursbylocals.com/travel-guides/canada/montreal',
+    targetParentUrl: 'https://example.com/travel-guides/canada/montreal',
     recommendedPlacement: 'Directly after the "Best Neighbourhoods in Montreal" section and before "Where to Eat in Montreal".',
     proposedHeading: 'Navigating Montreal: Practical Transit & Mobility Overview',
     userNeed: 'Quick orientation for users reading the general guide who need to know if they need a car and how to move between neighbourhoods.',
@@ -1307,7 +1307,7 @@ export const DEMO_PROJECT_STATE: FullBriefProjectState = {
     ],
     evidenceRequired: 'Confirmed STM metro line coverage and links to detailed guide.',
     internalLinks: [
-      'https://www.toursbylocals.com/destinations/montreal/getting-around-guide'
+      'https://example.com/destinations/montreal/getting-around-guide'
     ],
     approximateDepth: 'Concise (120-160 words)',
     whySeparatePageUnnecessary: 'This section provides high-level orientation on the parent hub while funneling deep transit queries to the dedicated supporting article.'
