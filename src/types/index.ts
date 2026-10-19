@@ -461,7 +461,7 @@ export interface SectionBriefData {
 
 export interface EditorialQACheckItem {
   id: string;
-  category: 'User Need & Intent' | 'Evidence & Provenance' | 'Site Architecture & Cannibalization' | 'Information Gain & SME' | 'ToursByLocals Editorial Compliance' | 'Source Freshness & Safety';
+  category: 'User Need & Intent' | 'Evidence & Provenance' | 'Site Architecture & Cannibalization' | 'Information Gain & SME' | 'Editorial Compliance' | 'Source Freshness & Safety';
   title: string;
   description: string;
   status: 'pass' | 'warning' | 'blocker';
